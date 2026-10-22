@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "tesis.html#qué-características-diferencian-a-los-beneficiarios-de-pti-de-los-trabajadores-formales",
+    "href": "tesis.html#qué-características-diferencian-a-los-beneficiarios-de-pti-de-los-trabajadores-formales",
+    "title": "Tesis de Maestría",
+    "section": "¿Qué características diferencian a los beneficiarios de PTI de los trabajadores formales?",
+    "text": "¿Qué características diferencian a los beneficiarios de PTI de los trabajadores formales?\nLa investigación estudia las diferencias sociodemográficas y económicas entre trabajadores asalariados formales y beneficiarios de programas de transferencias de ingresos (PTI) en Argentina.\nEl objetivo es identificar qué características permiten distinguir ambos grupos y evaluar en qué medida sus perfiles socioeconómicos se aproximan."
+  },
+  {
+    "objectID": "tesis.html#a-quiénes-estamos-comparando",
+    "href": "tesis.html#a-quiénes-estamos-comparando",
+    "title": "Tesis de Maestría",
+    "section": "¿A quiénes estamos comparando?",
+    "text": "¿A quiénes estamos comparando?\nLa investigación utiliza los microdatos de la Encuesta Permanente de Hogares (EPH) del INDEC, correspondientes al cuarto trimestre de 2023.\nLa EPH releva 31 aglomerados urbanos de Argentina. Por lo tanto, sus resultados no representan directamente a toda la población nacional.\n\nDos grupos de análisis\n\n\n\n01. Trabajadores formales\nSe seleccionó una submuestra de trabajadores asalariados formales a partir de los siguientes criterios:\n\nCondición ocupacional: trabajadores asalariados.\nFormalidad laboral: descuento jubilatorio en su ocupación principal.\nIngresos laborales: ingreso positivo de la ocupación principal.\nRecorte de ingresos: trabajadores comprendidos dentro de los primeros ocho deciles de ingreso de la ocupación principal.\n\nGrupo de referencia: asalariados formales de los primeros ocho deciles de ingreso.\n\n\n02. Beneficiarios de PTI\nPersonas que declaran percibir ingresos provenientes de programas de transferencias estatales.\nSe identifican mediante las preguntas de la EPH vinculadas con:\n\nAsignación Universal por Hijo (AUH).\nTarjeta Alimentar y otros planes sociales o subsidios monetarios.\n\nGrupo de comparación: perceptores de PTI.\n\n\n\n¿Qué características analizamos?\nLas variables explicativas utilizadas en los modelos son:\n\nEdad.\nSexo.\nNivel educativo.\nNúmero de hijos.\nIngresos.\n\nTambién se examinan características de los hogares, como su tamaño, ingreso total familiar, cantidad de ocupados y composición.\n\n\nAnálisis complementarios\nPara evaluar la sensibilidad de los resultados, la investigación considera diferentes delimitaciones del grupo de trabajadores formales.\nEl anexo incorpora restricciones adicionales de ingreso y nivel educativo, incluyendo trabajadores con hasta secundario completo.\nEstos ejercicios permiten analizar cómo cambia la diferenciación entre grupos al modificar la población de referencia.\n\n\n\n\n\n\nNote\n\n\n\nEl análisis identifica similitudes y diferencias entre perfiles observables. No permite establecer por sí solo que recibir una transferencia cause una menor participación en el empleo formal.\n\n\nFuente: Elaboración propia sobre la base de la EPH-INDEC, cuarto trimestre de 2023."
+  },
+  {
+    "objectID": "tesis.html#dos-grupos-diferentes-estructuras-familiares",
+    "href": "tesis.html#dos-grupos-diferentes-estructuras-familiares",
+    "title": "Tesis de Maestría",
+    "section": "Dos grupos, diferentes estructuras familiares",
+    "text": "Dos grupos, diferentes estructuras familiares\nLas diferencias entre los hogares de trabajadores formales y los hogares asociados a programas de transferencias de ingresos no se limitan al nivel de ingresos.\nTambién se observan diferencias en el tamaño del hogar, la cantidad de menores y la participación laboral de sus integrantes.\n\n\nHOGARES FORMALES · 8 DECILES\n\n3,17\n\nPersonas por hogar\n\n\nHOGARES PTI\n\n4,29\n\nPersonas por hogar\n\n\n\nMenores de 10 años por hogar\n\n\nFormales\n\n\n\n\n\n0,36\n\n\nPTI\n\n\n\n\n\n1,16\n\n\nLos hogares asociados a PTI presentan, en promedio, un mayor número de integrantes y de menores de 10 años que los hogares del grupo formal.\n\n\nIngresos de los hogares\nAdemás de las diferencias en la composición familiar, se observan diferencias en los ingresos totales de los hogares y en los ingresos laborales de sus jefes.\n\n\n\nIngreso total familiar\n\n$439.752\n\nHogares formales · 8 deciles\n\n\n$389.198\n\nHogares PTI\n\n\nIngreso laboral del jefe de hogar\n\n$187.415\n\nHogares formales · 8 deciles\n\n\n$98.217\n\nHogares PTI\n\n\nLos hogares del grupo formal presentan un ingreso total familiar promedio superior al de los hogares PTI. La diferencia es mayor cuando se considera exclusivamente el ingreso laboral del jefe de hogar.\nLos valores corresponden a pesos corrientes del cuarto trimestre de 2023.\n\nPersonas ocupadas por hogar\nLos hogares del grupo formal también presentan un mayor número promedio de integrantes ocupados.\n\n\n\nFormales\n\n\n\n\n\n\n\n1,92\n\n\n\n\nPTI\n\n\n\n\n\n\n\n1,67\n\n\n\nLa diferencia en el número de ocupados es más reducida que la observada en la cantidad de menores de 10 años.\nFuente: elaboración propia sobre la base de EPH-INDEC, cuarto trimestre de 2023."
+  },
+  {
+    "objectID": "tesis.html#dos-herramientas-para-analizar-las-diferencias",
+    "href": "tesis.html#dos-herramientas-para-analizar-las-diferencias",
+    "title": "Tesis de Maestría",
+    "section": "Dos herramientas para analizar las diferencias",
+    "text": "Dos herramientas para analizar las diferencias\nLa investigación combina dos métodos estadísticos complementarios para identificar las características que distinguen a los trabajadores formales de los beneficiarios de programas de transferencias de ingresos.\n\n\nMODELO 01\n\nAnálisis discriminante lineal (LDA)\nEl análisis discriminante lineal permite identificar una combinación de variables que maximiza la separación estadística entre ambos grupos.\nEl modelo considera características como edad, sexo, educación, cantidad de hijos e ingresos.\n¿Qué obtenemos?\n\nFunciones discriminantes.\nCoeficientes estandarizados.\nPorcentajes de clasificación correcta.\nDistribución de las puntuaciones discriminantes.\n\n\n\n\nMODELO 02\n\nModelo Probit\nEl modelo Probit permite estimar la probabilidad condicional de pertenecer al grupo de beneficiarios de PTI en función de las características observadas.\nSe estiman efectos marginales y probabilidades predichas para analizar cómo se relacionan las variables explicativas con la pertenencia a cada grupo.\n¿Qué obtenemos?\n\nEfectos marginales.\nProbabilidades predichas.\nDistribuciones de probabilidades por grupo.\nMedidas de superposición entre perfiles.\n\n\n\n\n\n¿Por qué estimar los modelos con y sin ingresos?\n\n\nESPECIFICACIÓN A\n\nCon ingresos\nIncluye edad, sexo, educación, hijos e ingreso individual.\nPermite evaluar la capacidad de diferenciación de los grupos cuando se incorpora su dimensión económica.\n\n\n\nESPECIFICACIÓN B\n\nSin ingresos\nIncluye edad, sexo, educación y cantidad de hijos.\nPermite analizar qué diferencias persisten cuando se excluye la variable de ingresos y se consideran exclusivamente las características sociodemográficas.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nLos modelos identifican asociaciones estadísticas y similitudes entre perfiles observables. Sus resultados no permiten establecer relaciones causales ni determinar directamente las posibilidades efectivas de inserción laboral formal de los beneficiarios de PTI."
+  },
+  {
+    "objectID": "tesis.html#qué-tan-diferentes-son-los-perfiles",
+    "href": "tesis.html#qué-tan-diferentes-son-los-perfiles",
+    "title": "Tesis de Maestría",
+    "section": "¿Qué tan diferentes son los perfiles?",
+    "text": "¿Qué tan diferentes son los perfiles?\nEl análisis discriminante lineal (LDA) permite evaluar en qué medida las características observables distinguen a los trabajadores formales de los beneficiarios de PTI.\nLos resultados muestran que los ingresos individuales tienen un papel importante en la diferenciación entre ambos grupos.\n\nCapacidad de clasificación del modelo\n\n\nLDA CON INGRESOS\n\n95,3%\n\nClasificación correcta global\n\n\nLDA SIN INGRESOS\n\n75,9%\n\nClasificación correcta global\n\n\n\n\nComparación entre especificaciones\n\n\nCon ingresos — 95,3%\n\n\n\n\n\n\n\nSin ingresos — 75,9%\n\n\n\n\n\n\n\n\n\n¿Cómo interpretar estos resultados?\nAl incorporar los ingresos, el modelo clasifica correctamente al 95,3% de las observaciones de la muestra analizada.\nCuando se excluye esta variable, el porcentaje disminuye al 75,9%.\nLa diferencia muestra la importancia de los ingresos en la separación estadística de los grupos. Sin embargo, la clasificación obtenida sin ingresos indica que también existen diferencias asociadas con las características sociodemográficas.\nEstos porcentajes corresponden a la clasificación de las observaciones utilizadas en el análisis y no constituyen una evaluación de desempeño predictivo fuera de muestra.\nFuente: elaboración propia sobre la base de EPH-INDEC, cuarto trimestre de 2023."
+  },
+  {
+    "objectID": "tesis.html#qué-nos-dice-la-evidencia",
+    "href": "tesis.html#qué-nos-dice-la-evidencia",
+    "title": "Tesis de Maestría",
+    "section": "¿Qué nos dice la evidencia?",
+    "text": "¿Qué nos dice la evidencia?\nLos resultados permiten identificar tres hallazgos centrales sobre las diferencias entre beneficiarios de programas de transferencias de ingresos (PTI) y trabajadores asalariados formales en la Argentina.\n\n\n01 / PERFILES SOCIOECONÓMICOS\n\nDos grupos con características diferentes\nLos trabajadores formales y los beneficiarios de PTI presentan diferencias en sus características individuales y en la composición de sus hogares.\nLos hogares vinculados a beneficiarios de PTI presentan, en promedio, un mayor tamaño y una mayor presencia de niños menores de diez años.\n\n\n\n02 / IMPORTANCIA DEL INGRESO\n\nUna variable central para la diferenciación\nLos modelos muestran que la incorporación del ingreso contribuye considerablemente a distinguir los perfiles de ambos grupos.\nCuando esta variable se excluye, disminuye la capacidad de clasificación estadística y aumenta la superposición entre las distribuciones estimadas.\n\n\n\n03 / SIMILITUDES OBSERVABLES\n\nPerfiles que también se aproximan\nAl considerar exclusivamente características sociodemográficas, los modelos identifican una mayor proximidad entre determinados integrantes de ambos grupos.\nEsto sugiere que las diferencias económicas no se corresponden necesariamente con perfiles sociodemográficos completamente distintos.\n\n\n\n\nAlcance de los resultados\nLa investigación aporta evidencia descriptiva y estadística sobre las características observables de ambos grupos.\nLos resultados no deben interpretarse como relaciones causales entre la percepción de transferencias de ingresos y la inserción en el empleo formal.\nEn particular, la similitud entre perfiles no permite determinar directamente las posibilidades de acceso al empleo formal de los beneficiarios de PTI."
+  },
+  {
+    "objectID": "tesis.html#tesis-y-anexo",
+    "href": "tesis.html#tesis-y-anexo",
+    "title": "Tesis de Maestría",
+    "section": "Tesis y anexo",
+    "text": "Tesis y anexo\nLos documentos completos permiten profundizar en la metodología, la construcción de las muestras y los resultados de los modelos estimados.\n\n\nTesis de Maestría\nEvidencia empírica sobre los PTI y el empleo formal en la Argentina\nUniversidad Torcuato Di Tella · Maestría en Economía Aplicada · 2026\nConsultar tesis completa (PDF)\n\n\nAnexo metodológico\nEjercicios adicionales y análisis de robustez\nComparaciones entre beneficiarios de PTI y trabajadores formales con restricciones adicionales de ingreso y nivel educativo.\nDescargar anexo (Word)"
+  },
+  {
+    "objectID": "index.html#economía-aplicada-análisis-de-datos-investigación",
+    "href": "index.html#economía-aplicada-análisis-de-datos-investigación",
+    "title": "Juan Martín Pascual",
+    "section": "Economía aplicada · Análisis de datos · Investigación",
+    "text": "Economía aplicada · Análisis de datos · Investigación\nSociólogo y Magíster en Economía Aplicada, especializado en análisis cuantitativo, investigación económica y procesamiento de datos.\nMi trabajo combina herramientas de economía, estadística y ciencias sociales para analizar problemas vinculados al mercado laboral, políticas públicas, ingresos y desarrollo económico.\nVer análisis de coyuntura Conocer mi trabajo"
+  },
+  {
+    "objectID": "index.html#líneas-de-trabajo",
+    "href": "index.html#líneas-de-trabajo",
+    "title": "Juan Martín Pascual",
+    "section": "Líneas de trabajo",
+    "text": "Líneas de trabajo\n\n\n📈 Análisis de coyuntura\nSeguimiento y análisis de la economía argentina a partir de indicadores y fuentes oficiales.\nActividad · Empleo · Sector fiscal · Sector externo\nVer análisis →\n\n\n📊 Economía aplicada\nAnálisis de problemas económicos mediante datos, herramientas estadísticas y métodos cuantitativos.\nDatos · Estadística · Economía · Políticas públicas\nVer proyectos →\n\n\n🎓 Tesis de Maestría\nInvestigación sobre trabajadores formales y beneficiarios de programas de transferencias de ingresos en Argentina.\nEPH · Análisis discriminante · Probit · Mercado laboral\nVer tesis →"
+  },
+  {
+    "objectID": "index.html#herramientas-y-fuentes",
+    "href": "index.html#herramientas-y-fuentes",
+    "title": "Juan Martín Pascual",
+    "section": "Herramientas y fuentes",
+    "text": "Herramientas y fuentes\nR · Excel · Estadística · Econometría · Visualización de datos · EPH · INDEC · BCRA\nTrabajo con microdatos, bases económicas y fuentes oficiales para transformar información en análisis e indicadores claros."
+  },
+  {
+    "objectID": "index.html#perfil",
+    "href": "index.html#perfil",
+    "title": "Juan Martín Pascual",
+    "section": "Perfil",
+    "text": "Perfil\nMe interesa desarrollar proyectos vinculados al análisis económico, investigación aplicada, mercado laboral, políticas públicas y análisis de datos.\nSobre mí →"
+  },
+  {
+    "objectID": "coyuntura.html",
+    "href": "coyuntura.html",
+    "title": "Análisis de coyuntura",
+    "section": "",
+    "text": "Análisis de la economía argentina a partir de indicadores oficiales, visualizaciones de datos e investigaciones propias.\nEn esta sección publico análisis sobre actividad económica, mercado laboral, cuentas públicas y sector externo."
+  },
+  {
+    "objectID": "coyuntura.html#publicaciones",
+    "href": "coyuntura.html#publicaciones",
+    "title": "Análisis de coyuntura",
+    "section": "Publicaciones",
+    "text": "Publicaciones"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "economia-aplicada.html",
+    "href": "economia-aplicada.html",
+    "title": "Economía aplicada",
+    "section": "",
+    "text": "Economía aplicada\nProyectos de análisis económico y cuantitativo aplicados a problemas concretos."
+  },
+  {
+    "objectID": "posts/actividad economica/index.html",
+    "href": "posts/actividad economica/index.html",
+    "title": "Actividad económica argentina",
+    "section": "",
+    "text": "En este análisis se examina la evolución reciente de la actividad económica argentina a partir de información oficial."
+  },
+  {
+    "objectID": "posts/actividad economica/index.html#introducción",
+    "href": "posts/actividad economica/index.html#introducción",
+    "title": "Actividad económica argentina",
+    "section": "",
+    "text": "En este análisis se examina la evolución reciente de la actividad económica argentina a partir de información oficial."
+  },
+  {
+    "objectID": "posts/actividad economica/index.html#datos-y-metodología",
+    "href": "posts/actividad economica/index.html#datos-y-metodología",
+    "title": "Actividad económica argentina",
+    "section": "Datos y metodología",
+    "text": "Datos y metodología\nFuente: INDEC."
+  },
+  {
+    "objectID": "posts/actividad economica/index.html#resultados",
+    "href": "posts/actividad economica/index.html#resultados",
+    "title": "Actividad económica argentina",
+    "section": "Resultados",
+    "text": "Resultados\nPróximamente incorporaremos gráficos y análisis de los indicadores de actividad económica."
+  },
+  {
+    "objectID": "posts/actividad economica/index.html#conclusiones",
+    "href": "posts/actividad economica/index.html#conclusiones",
+    "title": "Actividad económica argentina",
+    "section": "Conclusiones",
+    "text": "Conclusiones\nSección en desarrollo."
+  }
+]
