@@ -1,0 +1,760 @@
+
+---
+title: "Tesis de Maestría"
+toc: false
+page-layout: full
+title-block-style: none
+---
+
+::: {.tesis-container}
+
+::: {.tesis-hero}
+
+<div class="tesis-hero-label">
+INVESTIGACIÓN · MAESTRÍA EN ECONOMÍA APLICADA
+</div>
+
+<h2>Evidencia empírica sobre los PTI y el empleo formal en la Argentina</h2>
+
+<p class="tesis-hero-description">
+Un análisis de las diferencias sociodemográficas entre beneficiarios
+de programas de transferencias de ingresos y trabajadores formales,
+a partir de microdatos de la Encuesta Permanente de Hogares.
+</p>
+
+<p class="tesis-hero-meta">
+Universidad Torcuato Di Tella · EPH, 4.º trimestre de 2023
+</p>
+
+:::
+
+::: {.tesis-intro}
+
+**01 / LA INVESTIGACIÓN**
+
+## ¿Qué características diferencian a los beneficiarios de PTI de los trabajadores formales?
+
+La investigación estudia las diferencias sociodemográficas y económicas entre trabajadores asalariados formales y beneficiarios de programas de transferencias de ingresos (PTI) en Argentina.
+
+El objetivo es identificar qué características permiten distinguir ambos grupos y evaluar en qué medida sus perfiles socioeconómicos se aproximan.
+
+:::
+
+::: {.tesis-indicadores}
+
+::: {.tesis-indicador}
+
+### EPH
+
+4.º trimestre de 2023
+
+:::
+
+::: {.tesis-indicador}
+
+### LDA
+
+Análisis discriminante lineal
+
+:::
+
+::: {.tesis-indicador}
+
+### Probit
+
+Modelos de probabilidad
+
+:::
+
+:::
+
+
+::: {.tesis-seccion}
+
+**02 / DATOS Y MUESTRA**
+
+## ¿A quiénes estamos comparando?
+
+La investigación utiliza los microdatos de la **Encuesta Permanente de Hogares (EPH)** del INDEC, correspondientes al cuarto trimestre de 2023.
+
+La EPH releva 31 aglomerados urbanos de Argentina. Por lo tanto, sus resultados no representan directamente a toda la población nacional.
+
+
+### Dos grupos de análisis
+
+::: {.tesis-grupos}
+
+::: {.tesis-grupo}
+
+### 01. Trabajadores formales
+
+Se seleccionó una submuestra de trabajadores asalariados formales a partir de los siguientes criterios:
+
+- **Condición ocupacional:** trabajadores asalariados.
+- **Formalidad laboral:** descuento jubilatorio en su ocupación principal.
+- **Ingresos laborales:** ingreso positivo de la ocupación principal.
+- **Recorte de ingresos:** trabajadores comprendidos dentro de los primeros ocho deciles de ingreso de la ocupación principal.
+
+**Grupo de referencia:** asalariados formales de los primeros ocho deciles de ingreso.
+
+:::
+
+::: {.tesis-grupo}
+
+### 02. Beneficiarios de PTI
+
+Personas que declaran percibir ingresos provenientes de programas de transferencias estatales.
+
+Se identifican mediante las preguntas de la EPH vinculadas con:
+
+- **Asignación Universal por Hijo (AUH).**
+- **Tarjeta Alimentar y otros planes sociales o subsidios monetarios.**
+
+**Grupo de comparación:** perceptores de PTI.
+
+:::
+
+:::
+
+
+### ¿Qué características analizamos?
+
+Las variables explicativas utilizadas en los modelos son:
+
+- Edad.
+- Sexo.
+- Nivel educativo.
+- Número de hijos.
+- Ingresos.
+
+También se examinan características de los hogares, como su tamaño, ingreso total familiar, cantidad de ocupados y composición.
+
+### Análisis complementarios
+
+Para evaluar la sensibilidad de los resultados, la investigación considera diferentes delimitaciones del grupo de trabajadores formales.
+
+El anexo incorpora restricciones adicionales de ingreso y nivel educativo, incluyendo trabajadores con **hasta secundario completo**.
+
+Estos ejercicios permiten analizar cómo cambia la diferenciación entre grupos al modificar la población de referencia.
+
+::: {.callout-note}
+El análisis identifica similitudes y diferencias entre perfiles observables. No permite establecer por sí solo que recibir una transferencia cause una menor participación en el empleo formal.
+:::
+
+**Fuente:** Elaboración propia sobre la base de la EPH-INDEC, cuarto trimestre de 2023.
+
+:::
+
+::: {.tesis-seccion}
+
+
+::: {.tesis-seccion}
+
+**03 / ESTADÍSTICAS DESCRIPTIVAS**
+
+## Dos grupos, diferentes estructuras familiares
+
+Las diferencias entre los hogares de trabajadores formales y los hogares asociados a programas de transferencias de ingresos no se limitan al nivel de ingresos.
+
+También se observan diferencias en el tamaño del hogar, la cantidad de menores y la participación laboral de sus integrantes.
+
+::: {.tesis-comparacion}
+
+::: {.tesis-dato}
+
+**HOGARES FORMALES · 8 DECILES**
+
+<div class="tesis-numero">3,17</div>
+
+Personas por hogar
+
+:::
+
+::: {.tesis-dato}
+
+**HOGARES PTI**
+
+<div class="tesis-numero">4,29</div>
+
+Personas por hogar
+
+:::
+
+:::
+
+### Menores de 10 años por hogar
+
+
+::: {.tesis-barras}
+
+<div class="tesis-barra-fila">
+  <span>Formales</span>
+  <div class="tesis-barra-fondo"><div class="tesis-barra-formal" style="width:31%"></div></div>
+  <strong>0,36</strong>
+</div>
+
+<div class="tesis-barra-fila">
+  <span>PTI</span>
+  <div class="tesis-barra-fondo"><div class="tesis-barra-pti" style="width:100%"></div></div>
+  <strong>1,16</strong>
+</div>
+
+:::
+
+
+Los hogares asociados a PTI presentan, en promedio, un mayor número de integrantes y de menores de 10 años que los hogares del grupo formal.
+
+
+### Ingresos de los hogares
+
+Además de las diferencias en la composición familiar, se observan diferencias en los ingresos totales de los hogares y en los ingresos laborales de sus jefes.
+
+
+::: {.tesis-ingresos}
+
+::: {.tesis-ingreso-card}
+
+### Ingreso total familiar
+
+::: {.tesis-ingreso-valor}
+$439.752
+:::
+
+**Hogares formales · 8 deciles**
+
+---
+
+::: {.tesis-ingreso-valor .secundario}
+$389.198
+:::
+
+**Hogares PTI**
+
+:::
+
+::: {.tesis-ingreso-card}
+
+### Ingreso laboral del jefe de hogar
+
+::: {.tesis-ingreso-valor}
+$187.415
+:::
+
+**Hogares formales · 8 deciles**
+
+---
+
+::: {.tesis-ingreso-valor .secundario}
+$98.217
+:::
+
+**Hogares PTI**
+
+:::
+
+:::
+
+
+
+
+Los hogares del grupo formal presentan un ingreso total familiar promedio superior al de los hogares PTI. La diferencia es mayor cuando se considera exclusivamente el ingreso laboral del jefe de hogar.
+
+Los valores corresponden a pesos corrientes del cuarto trimestre de 2023.
+
+
+
+### Personas ocupadas por hogar
+
+Los hogares del grupo formal también presentan un mayor número promedio de integrantes ocupados.
+
+::: {.tesis-barras}
+
+::: {.tesis-barra-fila}
+
+::: {.tesis-barra-etiqueta}
+Formales
+:::
+
+::: {.tesis-barra-fondo}
+
+::: {.tesis-barra-formal style="width:100%"}
+:::
+
+:::
+
+::: {.tesis-barra-valor}
+**1,92**
+:::
+
+:::
+
+::: {.tesis-barra-fila}
+
+::: {.tesis-barra-etiqueta}
+PTI
+:::
+
+::: {.tesis-barra-fondo}
+
+::: {.tesis-barra-pti style="width:87%"}
+:::
+
+:::
+
+::: {.tesis-barra-valor}
+**1,67**
+:::
+
+:::
+
+:::
+
+La diferencia en el número de ocupados es más reducida que la observada en la cantidad de menores de 10 años.
+
+*Fuente: elaboración propia sobre la base de EPH-INDEC, cuarto trimestre de 2023.*
+
+
+:::
+
+
+:::
+
+::: {.tesis-seccion}
+
+
+**04 / METODOLOGÍA**
+
+## Dos herramientas para analizar las diferencias
+
+La investigación combina dos métodos estadísticos complementarios para identificar las características que distinguen a los trabajadores formales de los beneficiarios de programas de transferencias de ingresos.
+
+::: {.tesis-modelos}
+
+::: {.tesis-modelo}
+
+**MODELO 01**
+
+### Análisis discriminante lineal (LDA)
+
+El análisis discriminante lineal permite identificar una combinación de variables que maximiza la separación estadística entre ambos grupos.
+
+El modelo considera características como edad, sexo, educación, cantidad de hijos e ingresos.
+
+**¿Qué obtenemos?**
+
+- Funciones discriminantes.
+- Coeficientes estandarizados.
+- Porcentajes de clasificación correcta.
+- Distribución de las puntuaciones discriminantes.
+
+:::
+
+::: {.tesis-modelo}
+
+**MODELO 02**
+
+### Modelo Probit
+
+El modelo Probit permite estimar la probabilidad condicional de pertenecer al grupo de beneficiarios de PTI en función de las características observadas.
+
+Se estiman efectos marginales y probabilidades predichas para analizar cómo se relacionan las variables explicativas con la pertenencia a cada grupo.
+
+**¿Qué obtenemos?**
+
+- Efectos marginales.
+- Probabilidades predichas.
+- Distribuciones de probabilidades por grupo.
+- Medidas de superposición entre perfiles.
+
+:::
+
+:::
+
+### ¿Por qué estimar los modelos con y sin ingresos?
+
+::: {.tesis-especificaciones}
+
+::: {.tesis-especificacion}
+
+**ESPECIFICACIÓN A**
+
+### Con ingresos
+
+Incluye edad, sexo, educación, hijos e ingreso individual.
+
+Permite evaluar la capacidad de diferenciación de los grupos cuando se incorpora su dimensión económica.
+
+:::
+
+::: {.tesis-especificacion}
+
+**ESPECIFICACIÓN B**
+
+### Sin ingresos
+
+Incluye edad, sexo, educación y cantidad de hijos.
+
+Permite analizar qué diferencias persisten cuando se excluye la variable de ingresos y se consideran exclusivamente las características sociodemográficas.
+
+:::
+
+:::
+
+::: {.callout-note}
+Los modelos identifican asociaciones estadísticas y similitudes entre perfiles observables. Sus resultados no permiten establecer relaciones causales ni determinar directamente las posibilidades efectivas de inserción laboral formal de los beneficiarios de PTI.
+:::
+
+:::
+
+
+
+::: {.tesis-seccion}
+
+**05 / RESULTADOS**
+
+## ¿Qué tan diferentes son los perfiles?
+
+El análisis discriminante lineal (LDA) permite evaluar en qué medida las características observables distinguen a los trabajadores formales de los beneficiarios de PTI.
+
+Los resultados muestran que los ingresos individuales tienen un papel importante en la diferenciación entre ambos grupos.
+
+### Capacidad de clasificación del modelo
+
+::: {.tesis-resultados-grid}
+
+::: {.tesis-resultado-card}
+
+**LDA CON INGRESOS**
+
+::: {.tesis-resultado-numero}
+95,3%
+:::
+
+Clasificación correcta global
+
+:::
+
+::: {.tesis-resultado-card}
+
+**LDA SIN INGRESOS**
+
+::: {.tesis-resultado-numero .alternativo}
+75,9%
+:::
+
+Clasificación correcta global
+
+:::
+
+:::
+
+### Comparación entre especificaciones
+
+::: {.tesis-resultado-barras}
+
+::: {.tesis-resultado-barra-item}
+
+**Con ingresos — 95,3%**
+
+::: {.tesis-resultado-barra-fondo}
+
+::: {.tesis-resultado-barra-azul style="width:95.3%"}
+:::
+
+:::
+
+:::
+
+::: {.tesis-resultado-barra-item}
+
+**Sin ingresos — 75,9%**
+
+::: {.tesis-resultado-barra-fondo}
+
+::: {.tesis-resultado-barra-gris style="width:75.9%"}
+:::
+
+:::
+
+:::
+
+:::
+
+### ¿Cómo interpretar estos resultados?
+
+Al incorporar los ingresos, el modelo clasifica correctamente al 95,3% de las observaciones de la muestra analizada.
+
+Cuando se excluye esta variable, el porcentaje disminuye al 75,9%.
+
+La diferencia muestra la importancia de los ingresos en la separación estadística de los grupos. Sin embargo, la clasificación obtenida sin ingresos indica que también existen diferencias asociadas con las características sociodemográficas.
+
+Estos porcentajes corresponden a la clasificación de las observaciones utilizadas en el análisis y no constituyen una evaluación de desempeño predictivo fuera de muestra.
+
+*Fuente: elaboración propia sobre la base de EPH-INDEC, cuarto trimestre de 2023.*
+
+:::
+
+### Resultados del modelo Probit
+
+El modelo Probit permite analizar cómo se relacionan las características individuales con la probabilidad estimada de pertenecer al grupo de beneficiarios de PTI.
+
+Los efectos marginales promedio de la especificación con ingresos muestran asociaciones de diferente magnitud y dirección.
+
+
+::: {.tesis-probit-barras}
+
+::: {.tesis-probit-fila}
+
+::: {.tesis-probit-etiqueta}
+**Ingreso individual (logaritmo)**
+:::
+
+::: {.tesis-probit-fondo}
+::: {.tesis-probit-negativa style="width:88.56%"}
+:::
+:::
+
+::: {.tesis-probit-cifra .negativa}
+**−22,14 pp**
+:::
+
+:::
+
+::: {.tesis-probit-fila}
+
+::: {.tesis-probit-etiqueta}
+**Nivel educativo**
+:::
+
+::: {.tesis-probit-fondo}
+::: {.tesis-probit-negativa style="width:7.64%"}
+:::
+:::
+
+::: {.tesis-probit-cifra .negativa}
+**−1,91 pp**
+:::
+
+:::
+
+::: {.tesis-probit-fila}
+
+::: {.tesis-probit-etiqueta}
+**Sexo**
+:::
+
+::: {.tesis-probit-fondo}
+::: {.tesis-probit-positiva style="width:18.60%"}
+:::
+:::
+
+::: {.tesis-probit-cifra .positiva}
+**+4,65 pp**
+:::
+
+:::
+
+::: {.tesis-probit-fila}
+
+::: {.tesis-probit-etiqueta}
+**Cantidad de hijos**
+:::
+
+::: {.tesis-probit-fondo}
+::: {.tesis-probit-positiva style="width:18.68%"}
+:::
+:::
+
+::: {.tesis-probit-cifra .positiva}
+**+4,67 pp**
+:::
+
+:::
+
+:::
+
+*Las barras muestran la magnitud absoluta de los efectos marginales promedio. El signo indica la dirección de la asociación con la probabilidad estimada de pertenecer al grupo PTI.*
+
+
+### ¿Qué sucede cuando excluimos los ingresos?
+
+Al estimar el modelo sin ingresos, las características sociodemográficas adquieren mayor relevancia para diferenciar los grupos.
+
+En particular, el efecto marginal promedio asociado al nivel educativo pasa de aproximadamente −1,91 a −10,44 puntos porcentuales por nivel adicional.
+
+Este resultado muestra cómo cambia la asociación estadística entre educación y pertenencia al grupo PTI cuando se modifica el conjunto de variables explicativas.
+
+::: {.callout-note}
+Los efectos marginales son asociaciones condicionales estimadas, no efectos causales. Además, los cambios en los efectos marginales entre especificaciones no deben interpretarse automáticamente como cambios causados por excluir una variable.
+:::
+
+
+::: {.tesis-seccion}
+
+
+### Distribuciones de probabilidades predichas
+
+Los siguientes gráficos presentan las distribuciones de las
+probabilidades predichas de pertenecer al grupo de trabajadores
+formales, transformadas mediante la función logit.
+
+La transformación permite visualizar con mayor claridad
+las diferencias y zonas de superposición entre los grupos.
+
+#### Modelo Probit con ingresos
+
+::: {.tesis-grafico-interactivo}
+<iframe src="Images/Tesis/probit_con_ingresos_interactivo.html"
+        width="100%"
+        height="480"
+        style="border: none;"
+        title="Distribución Probit con ingresos">
+</iframe>
+:::
+
+Al incorporar los ingresos, las distribuciones presentan
+una separación pronunciada, lo que evidencia la importancia
+de esta variable para distinguir estadísticamente los grupos.
+
+#### Modelo Probit sin ingresos
+
+::: {.tesis-grafico-interactivo}
+<iframe src="Images/Tesis/probit_sin_ingresos_interactivo.html"
+        width="100%"
+        height="480"
+        style="border: none;"
+        title="Distribución Probit sin ingresos">
+</iframe>
+:::
+
+**¿Qué nos muestran estos resultados?**
+
+La comparación entre ambas especificaciones evidencia que los ingresos constituyen una variable relevante para la diferenciación estadística de los grupos analizados. Cuando se incorpora esta dimensión, las distribuciones de las probabilidades predichas presentan una separación pronunciada.
+
+Sin embargo, al excluir los ingresos y considerar únicamente las características sociodemográficas, las distribuciones muestran una superposición considerablemente mayor. Este resultado sugiere que existen similitudes observables entre determinados beneficiarios de programas de transferencias de ingresos y trabajadores asalariados formales.
+
+La evidencia permite identificar diferencias y similitudes entre perfiles, pero no establecer relaciones causales ni determinar directamente las posibilidades de inserción laboral formal de los beneficiarios.
+
+*Fuente: elaboración propia sobre la base de EPH-INDEC,
+cuarto trimestre de 2023.*
+
+
+::: {.tesis-seccion}
+
+**06 / CONCLUSIONES**
+
+## ¿Qué nos dice la evidencia?
+
+Los resultados permiten identificar tres hallazgos centrales
+sobre las diferencias entre beneficiarios de programas de
+transferencias de ingresos (PTI) y trabajadores asalariados
+formales en la Argentina.
+
+::: {.tesis-conclusiones-grid}
+
+::: {.tesis-conclusion-card}
+
+**01 / PERFILES SOCIOECONÓMICOS**
+
+### Dos grupos con características diferentes
+
+Los trabajadores formales y los beneficiarios de PTI
+presentan diferencias en sus características individuales
+y en la composición de sus hogares.
+
+Los hogares vinculados a beneficiarios de PTI presentan,
+en promedio, un mayor tamaño y una mayor presencia de
+niños menores de diez años.
+
+:::
+
+::: {.tesis-conclusion-card}
+
+**02 / IMPORTANCIA DEL INGRESO**
+
+### Una variable central para la diferenciación
+
+Los modelos muestran que la incorporación del ingreso
+contribuye considerablemente a distinguir los perfiles
+de ambos grupos.
+
+Cuando esta variable se excluye, disminuye la capacidad
+de clasificación estadística y aumenta la superposición
+entre las distribuciones estimadas.
+
+:::
+
+::: {.tesis-conclusion-card}
+
+**03 / SIMILITUDES OBSERVABLES**
+
+### Perfiles que también se aproximan
+
+Al considerar exclusivamente características
+sociodemográficas, los modelos identifican una mayor
+proximidad entre determinados integrantes de ambos grupos.
+
+Esto sugiere que las diferencias económicas no se
+corresponden necesariamente con perfiles
+sociodemográficos completamente distintos.
+
+:::
+
+:::
+
+::: {.tesis-conclusion-cierre}
+
+### Alcance de los resultados
+
+La investigación aporta evidencia descriptiva y
+estadística sobre las características observables
+de ambos grupos.
+
+Los resultados no deben interpretarse como relaciones
+causales entre la percepción de transferencias de
+ingresos y la inserción en el empleo formal.
+
+En particular, la similitud entre perfiles no permite
+determinar directamente las posibilidades de acceso
+al empleo formal de los beneficiarios de PTI.
+
+:::
+
+:::
+
+
+**07 / DOCUMENTACIÓN**
+
+## Tesis y anexo
+
+Los documentos completos permiten profundizar en la metodología, la construcción de las muestras y los resultados de los modelos estimados.
+
+::: {.tesis-grupos}
+
+::: {.tesis-grupo}
+
+### Tesis de Maestría
+
+**Evidencia empírica sobre los PTI y el empleo formal en la Argentina**
+
+Universidad Torcuato Di Tella · Maestría en Economía Aplicada · 2026
+
+[Consultar tesis completa (PDF)](docs/tesis-juan-martin-pascual.pdf){target="_blank"}
+
+:::
+
+::: {.tesis-grupo}
+
+### Anexo metodológico
+
+**Ejercicios adicionales y análisis de robustez**
+
+Comparaciones entre beneficiarios de PTI y trabajadores formales con restricciones adicionales de ingreso y nivel educativo.
+
+[Descargar anexo (Word)](docs/anexo-tesis-juan-martin-pascual.docx)
+
+:::
+
+:::
+
+:::

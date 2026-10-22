@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Juan Martín Pascual"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: coyuntura.qmd
+        text: Coyuntura
+      - href: economia-aplicada.qmd
+        text: Economía aplicada
+      - href: tesis.qmd
+        text: Tesis
+      - href: about.qmd
+        text: Sobre mí
+    right:
+      - icon: github
+        href: https://github.com/juan-martin-pascual
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

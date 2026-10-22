@@ -1,0 +1,1200 @@
+/* ---------- GENERAL ---------- */
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #243447;
+  background-color: #ffffff;
+}
+
+main {
+  max-width: 1180px;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e8edf2;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #16324f !important;
+}
+
+.navbar-nav .nav-link {
+  color: #4b5563 !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1769aa !important;
+}
+
+/* ---------- TITULOS ---------- */
+
+h1 {
+  color: #16324f;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: #16324f;
+  font-weight: 650;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  color: #234b6f;
+  font-weight: 600;
+}
+
+/* ---------- TEXTO ---------- */
+
+p {
+  line-height: 1.7;
+}
+
+#quarto-content {
+  font-size: 1.05rem;
+}
+
+/* ---------- BOTONES ---------- */
+
+.btn-primary {
+  background-color: #1769aa;
+  border-color: #1769aa;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #124f80;
+  border-color: #124f80;
+}
+
+.btn-outline-primary {
+  color: #1769aa;
+  border-color: #1769aa;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1769aa;
+  color: white;
+}
+
+/* ---------- LINKS ---------- */
+
+a {
+  color: #1769aa;
+}
+
+/* ---------- SEPARADORES ---------- */
+
+hr {
+  border-color: #dfe6ec;
+  opacity: 1;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/* ---------- TARJETAS ÁREAS ---------- */
+
+.area-card {
+  border: 1px solid #e1e7ed;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  min-height: 230px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.area-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(22, 50, 79, 0.10);
+}
+
+.area-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #16324f;
+}
+
+.area-card p {
+  color: #4b5563;
+}
+/* ---------- PROYECTOS ---------- */
+
+.project-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #1f6fb2;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+/* =========================================
+   PROYECTOS DESTACADOS
+   ========================================= */
+
+.projects-grid {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.project-card {
+  border: 1px solid #dfe6ec;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  padding: 0 1.6rem 1.6rem 1.6rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(22, 50, 79, 0.12);
+}
+
+.project-visual {
+  margin-left: -1.6rem;
+  margin-right: -1.6rem;
+  margin-bottom: 1.5rem;
+  min-height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #16324f 0%,
+    #245b86 100%
+  );
+
+  color: white;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+}
+
+.project-visual p {
+  margin: 0.4rem;
+}
+
+.project-visual p:last-child {
+  font-size: 3rem;
+}
+
+.project-card h3 {
+  color: #16324f;
+  margin-top: 0;
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+
+.project-card p {
+  line-height: 1.65;
+}
+
+.project-tags {
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-tags code {
+  background: #eef4f8;
+  color: #16324f;
+  border: none;
+  border-radius: 20px;
+  padding: 0.35rem 0.65rem;
+  margin-right: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.project-button {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1f6fb2;
+  margin-top: 0.4rem;
+}
+
+.project-button:hover {
+  color: #16324f;
+  text-decoration: none;
+}
+/* =========================================
+   MEJORAS VISUALES DEL PORTFOLIO
+   ========================================= */
+
+/* Lectura y distribución */
+
+body {
+  color: #293b4f;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#quarto-content {
+  font-size: 1rem;
+}
+
+main.content {
+  max-width: 1050px;
+}
+
+/* Jerarquía de títulos */
+
+h1 {
+  font-size: clamp(2.1rem, 4vw, 2.8rem);
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 1.65rem;
+  letter-spacing: -0.02em;
+  margin-top: 2.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+
+p {
+  line-height: 1.75;
+}
+
+/* Navegación */
+
+.navbar {
+  box-shadow: 0 1px 5px rgba(22, 50, 79, 0.03);
+}
+
+.navbar-nav .nav-link.active {
+  color: #1769aa !important;
+  font-weight: 600;
+}
+
+/* Tarjetas principales */
+
+.area-card {
+  border: 1px solid #e2e9f0;
+  border-radius: 12px;
+  padding: 1.6rem;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(22, 50, 79, 0.025);
+}
+
+.area-card h3 {
+  font-size: 1.18rem;
+  line-height: 1.35;
+  margin-bottom: 0.8rem;
+}
+
+.area-card p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.area-card .project-link {
+  margin-top: auto;
+  padding-top: 0.8rem;
+}
+
+/* Botones */
+
+.btn {
+  transition: all 0.2s ease;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Listados de publicaciones Quarto */
+
+.quarto-listing-default .listing-title {
+  color: #16324f;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.quarto-listing-default .listing-description {
+  color: #526273;
+  line-height: 1.6;
+}
+
+.quarto-listing-default .listing-date {
+  color: #758394;
+  font-size: 0.85rem;
+}
+
+/* Tablas de investigación */
+
+table {
+  font-size: 0.92rem;
+}
+
+table thead {
+  background-color: #edf3f8;
+}
+
+table th {
+  color: #16324f;
+  font-weight: 600;
+}
+
+table td,
+table th {
+  padding: 0.7rem 0.9rem;
+}
+
+/* Imágenes y gráficos */
+
+main.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Adaptación a pantallas pequeñas */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+  }
+
+  .area-card {
+    min-height: auto;
+  }
+}
+
+/* =========================================
+   TESIS — DISEÑO EDITORIAL
+   ========================================= */
+
+.tesis-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 1rem 2rem 4rem;
+}
+
+.tesis-hero {
+  background: linear-gradient(135deg, #16324f, #245b86);
+  color: white;
+  border-radius: 16px;
+  padding: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.tesis-hero h1 {
+  color: white;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.2;
+  margin: 1.5rem 0;
+  max-width: 850px;
+}
+
+.tesis-hero p {
+  color: #e4edf5;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.tesis-hero strong {
+  color: white;
+}
+
+.tesis-indicadores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0 3rem;
+}
+
+.tesis-indicador {
+  background: #f2f6fa;
+  border: 1px solid #e2e9f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.tesis-indicador h3 {
+  color: #16324f;
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem;
+}
+
+.tesis-indicador p {
+  color: #526273;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.tesis-container h2 {
+  border-bottom: 1px solid #e2e9f0;
+  padding-bottom: 0.7rem;
+  margin-top: 3.5rem;
+}
+
+.tesis-container > p {
+  max-width: 850px;
+}
+
+@media (max-width: 768px) {
+  .tesis-container {
+    padding: 1rem;
+  }
+
+  .tesis-hero {
+    padding: 2rem 1.5rem;
+  }
+
+  .tesis-indicadores {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* PORTADA DE TESIS */
+
+.tesis-hero {
+  background: linear-gradient(135deg, #173451, #285e88);
+  border-radius: 18px;
+  padding: 4rem 4.5rem;
+  color: white;
+  margin: 2rem 0 3rem;
+}
+
+.tesis-hero-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 2rem;
+}
+
+.tesis-hero h2 {
+  color: white;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-weight: 750;
+  line-height: 1.15;
+  border: none;
+  margin: 0 0 2rem;
+}
+
+.tesis-hero-description {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #e0eaf3;
+  max-width: 900px;
+}
+
+.tesis-hero-meta {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .tesis-hero {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+/* =========================================
+   TESIS — PRESENTACIÓN DE LA INVESTIGACIÓN
+   ========================================= */
+
+.tesis-intro {
+  max-width: 1050px;
+  margin: 3rem auto 4rem;
+}
+
+.tesis-intro > p:first-child {
+  color: #1769aa;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.tesis-intro h2 {
+  color: #16324f;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1.3;
+  max-width: 850px;
+  margin: 1.5rem 0;
+  border: none;
+}
+
+.tesis-intro > p {
+  max-width: 850px;
+  line-height: 1.8;
+}
+
+.tesis-intro .tesis-indicadores {
+  margin-top: 2.5rem;
+}
+
+.tesis-intro .tesis-indicador {
+  background: #f4f7fa;
+  border: 1px solid #e0e8ef;
+  border-radius: 14px;
+  padding: 1.8rem 1rem;
+}
+
+.tesis-intro .tesis-indicador h3 {
+  font-size: 2rem;
+  color: #16324f;
+}
+
+@media (max-width: 768px) {
+  .tesis-intro {
+    margin: 2rem auto;
+  }
+}
+
+/* =========================================
+   TESIS — GRUPOS DE COMPARACIÓN
+   ========================================= */
+
+.tesis-grupos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 2.5rem;
+}
+
+.tesis-grupo {
+  background: #f5f8fb;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+  padding: 2rem;
+}
+
+.tesis-grupo:first-child {
+  border-top: 4px solid #1769aa;
+}
+
+.tesis-grupo:last-child {
+  border-top: 4px solid #7295b3;
+}
+
+.tesis-grupo h3 {
+  color: #16324f;
+  font-size: 1.25rem;
+  margin: 0 0 1.2rem;
+}
+
+.tesis-grupo p,
+.tesis-grupo li {
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+
+.tesis-grupo ul {
+  padding-left: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .tesis-grupos {
+    grid-template-columns: 1fr;
+  }
+
+  .tesis-grupo {
+    padding: 1.5rem;
+  }
+}
+
+/* =========================================
+   TESIS — ESTADÍSTICAS DESCRIPTIVAS
+   ========================================= */
+
+.tesis-comparacion {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 3rem;
+}
+
+.tesis-dato {
+  background: #f3f7fa;
+  border: 1px solid #e0e8ef;
+  border-radius: 14px;
+  padding: 2rem;
+}
+
+.tesis-dato p:first-child {
+  font-size: 0.8rem;
+  color: #55718a;
+  letter-spacing: 0.04em;
+}
+
+.tesis-numero {
+  color: #16324f;
+  font-size: 3.5rem;
+  font-weight: 750;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+.tesis-barras {
+  margin: 2rem 0;
+}
+
+.tesis-barra-fila {
+  display: grid;
+  grid-template-columns: 100px 1fr 55px;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+
+.tesis-barra-fondo {
+  background: #e7edf3;
+  height: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.tesis-barra-formal,
+.tesis-barra-pti {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.tesis-barra-formal {
+  background: #1769aa;
+}
+
+.tesis-barra-pti {
+  background: #7295b3;
+}
+
+@media (max-width: 768px) {
+  .tesis-comparacion {
+    grid-template-columns: 1fr;
+  }
+
+  .tesis-barra-fila {
+    grid-template-columns: 70px 1fr 45px;
+    gap: 0.6rem;
+  }
+
+  .tesis-numero {
+    font-size: 2.8rem;
+  }
+}
+
+/* =========================================
+   TESIS — INGRESOS DE LOS HOGARES
+   ========================================= */
+
+.tesis-ingresos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.tesis-ingreso-card {
+  background: #f3f7fa;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+  padding: 2rem;
+}
+
+.tesis-ingreso-titulo {
+  color: #16324f;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.tesis-ingreso-valor {
+  color: #1769aa;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  font-weight: 750;
+  line-height: 1.2;
+}
+
+.tesis-ingreso-valor.secundario {
+  color: #7295b3;
+}
+
+.tesis-ingreso-grupo {
+  color: #52677b;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+}
+
+.tesis-ingreso-separador {
+  border-top: 1px solid #dce5ed;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .tesis-ingresos {
+    grid-template-columns: 1fr;
+  }
+
+  .tesis-ingreso-card {
+    padding: 1.5rem;
+  }
+}
+
+/* Corrección definitiva de tarjetas de ingresos */
+
+.tesis-ingreso-card {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.tesis-ingreso-card h3 {
+  color: #16324f;
+  font-size: 1.2rem;
+  margin: 0 0 1.5rem;
+}
+
+.tesis-ingreso-card .tesis-ingreso-valor {
+  margin: 0.5rem 0;
+  color: #1769aa;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  font-weight: 750;
+  line-height: 1.2;
+}
+
+.tesis-ingreso-card .tesis-ingreso-valor p {
+  margin: 0;
+  line-height: inherit;
+}
+
+.tesis-ingreso-card .tesis-ingreso-valor.secundario {
+  color: #7295b3;
+}
+
+.tesis-ingreso-card hr {
+  margin: 1.5rem 0;
+  border-color: #dce5ed;
+}
+
+/* =========================================
+   TESIS — METODOLOGÍA
+   ========================================= */
+
+.tesis-modelos,
+.tesis-especificaciones {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 3rem;
+}
+
+.tesis-modelo {
+  background: #f3f7fa;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+  padding: 2rem;
+}
+
+.tesis-modelo > p:first-child {
+  color: #1769aa;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.tesis-modelo h3 {
+  color: #16324f;
+  font-size: 1.4rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.tesis-modelo ul {
+  padding-left: 1.3rem;
+}
+
+.tesis-modelo li {
+  margin-bottom: 0.5rem;
+}
+
+.tesis-especificacion {
+  background: white;
+  border: 1px solid #dfe7ef;
+  border-left: 4px solid #1769aa;
+  border-radius: 12px;
+  padding: 1.7rem;
+}
+
+.tesis-especificacion:last-child {
+  border-left-color: #7295b3;
+}
+
+.tesis-especificacion > p:first-child {
+  color: #1769aa;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.tesis-especificacion h3 {
+  margin: 1rem 0;
+  color: #16324f;
+}
+
+@media (max-width: 768px) {
+  .tesis-modelos,
+  .tesis-especificaciones {
+    grid-template-columns: 1fr;
+  }
+
+  .tesis-modelo,
+  .tesis-especificacion {
+    padding: 1.5rem;
+  }
+}
+
+/* =========================================
+   TESIS — RESULTADOS LDA
+   ========================================= */
+
+.tesis-resultados-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 3rem;
+}
+
+.tesis-resultado-card {
+  background: #f3f7fa;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+  padding: 2rem;
+}
+
+.tesis-resultado-card > p:first-child {
+  color: #55718a;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.tesis-resultado-numero {
+  color: #1769aa;
+  font-size: clamp(2.5rem, 4vw, 3.8rem);
+  font-weight: 750;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+.tesis-resultado-numero p {
+  margin: 0;
+  line-height: inherit;
+}
+
+.tesis-resultado-numero.alternativo {
+  color: #7295b3;
+}
+
+.tesis-resultado-barras {
+  margin: 2rem 0 3rem;
+}
+
+.tesis-resultado-barra-item {
+  margin-bottom: 1.5rem;
+}
+
+.tesis-resultado-barra-item > p {
+  margin-bottom: 0.6rem;
+}
+
+.tesis-resultado-barra-fondo {
+  height: 18px;
+  background: #e7edf3;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.tesis-resultado-barra-azul,
+.tesis-resultado-barra-gris {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.tesis-resultado-barra-azul {
+  background: #1769aa;
+}
+
+.tesis-resultado-barra-gris {
+  background: #7295b3;
+}
+
+@media (max-width: 768px) {
+  .tesis-resultados-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tesis-resultado-card {
+    padding: 1.5rem;
+  }
+}
+
+/* =========================================
+   TESIS — RESULTADOS PROBIT
+   ========================================= */
+
+.tesis-probit {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 3rem;
+}
+
+.tesis-probit-item {
+  background: #f3f7fa;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+  padding: 1.8rem;
+}
+
+.tesis-probit-item > p:first-child {
+  color: #16324f;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.tesis-probit-valor {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-weight: 750;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.tesis-probit-valor p {
+  margin: 0;
+}
+
+.tesis-probit-valor.negativo {
+  color: #1769aa;
+}
+
+.tesis-probit-valor.positivo {
+  color: #7295b3;
+}
+
+.tesis-probit-item p {
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .tesis-probit {
+    grid-template-columns: 1fr;
+  }
+
+  .tesis-probit-item {
+    padding: 1.5rem;
+  }
+}
+
+/* =========================================
+   TESIS — PROBIT CON BARRAS
+   ========================================= */
+
+.tesis-probit-barras {
+  margin: 2rem 0 1.5rem;
+  padding: 2rem;
+  background: #f3f7fa;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+}
+
+.tesis-probit-fila {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr) 110px;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.tesis-probit-fila:last-child {
+  margin-bottom: 0;
+}
+
+.tesis-probit-etiqueta p,
+.tesis-probit-cifra p {
+  margin: 0;
+}
+
+.tesis-probit-etiqueta {
+  color: #16324f;
+  font-size: 0.95rem;
+}
+
+.tesis-probit-fondo {
+  background: #e1e9f0;
+  height: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.tesis-probit-negativa,
+.tesis-probit-positiva {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.tesis-probit-negativa {
+  background: #1769aa;
+}
+
+.tesis-probit-positiva {
+  background: #7295b3;
+}
+
+.tesis-probit-cifra {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.tesis-probit-cifra.negativa {
+  color: #1769aa;
+}
+
+.tesis-probit-cifra.positiva {
+  color: #7295b3;
+}
+
+@media (max-width: 768px) {
+  .tesis-probit-barras {
+    padding: 1.2rem;
+  }
+
+  .tesis-probit-fila {
+    grid-template-columns: minmax(0, 1fr) 100px;
+    gap: 0.5rem 0.8rem;
+  }
+
+  .tesis-probit-etiqueta {
+    grid-column: 1;
+  }
+
+  .tesis-probit-cifra {
+    grid-column: 2;
+  }
+
+  .tesis-probit-fondo {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
+
+/* Gráficos interactivos de la tesis */
+
+.tesis-grafico-interactivo {
+  background: #f3f7fa;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+  padding: 1rem;
+  margin: 1.5rem 0 2rem;
+  overflow: hidden;
+}
+
+.tesis-grafico-interactivo iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .tesis-grafico-interactivo {
+    padding: 0.5rem;
+  }
+}
+
+/* =====================================
+   TESIS - SECCION 06 / CONCLUSIONES
+   ===================================== */
+
+.tesis-conclusiones-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.tesis-conclusion-card {
+  background: #f3f7fa;
+  border: 1px solid #dfe7ef;
+  border-radius: 14px;
+  padding: 1.75rem;
+  min-width: 0;
+}
+
+.tesis-conclusion-card > p:first-child {
+  color: #1769aa;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.tesis-conclusion-card h3 {
+  color: #16324f;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  margin: 1rem 0;
+}
+
+.tesis-conclusion-card p {
+  line-height: 1.7;
+}
+
+.tesis-conclusion-cierre {
+  background: #eaf1f7;
+  border-left: 4px solid #1769aa;
+  border-radius: 0 12px 12px 0;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0 3rem;
+}
+
+.tesis-conclusion-cierre h3 {
+  color: #16324f;
+  margin-top: 0;
+}
+
+.tesis-conclusion-cierre p {
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .tesis-conclusiones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tesis-conclusion-cierre {
+    padding: 1.25rem;
+  }
+}
+

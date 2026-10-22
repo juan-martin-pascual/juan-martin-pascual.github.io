@@ -1,0 +1,7 @@
+---
+title: "Economía aplicada"
+---
+
+# Economía aplicada
+
+Proyectos de análisis económico y cuantitativo aplicados a problemas concretos.

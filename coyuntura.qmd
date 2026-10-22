@@ -1,0 +1,18 @@
+
+---
+title: "Análisis de coyuntura"
+toc: false
+listing:
+  contents: "posts/*/index.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: false
+  fields: [date, title, description, categories]
+---
+
+Análisis de la economía argentina a partir de indicadores oficiales, visualizaciones de datos e investigaciones propias.
+
+En esta sección publico análisis sobre actividad económica, mercado laboral, cuentas públicas y sector externo.
+
+## Publicaciones

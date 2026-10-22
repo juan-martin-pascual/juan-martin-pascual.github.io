@@ -1,0 +1,69 @@
+---
+title: "Juan Martín Pascual"
+title-block-banner: false
+title-block-style: none
+toc: false
+---
+
+## Economía aplicada · Análisis de datos · Investigación
+
+Sociólogo y Magíster en Economía Aplicada, especializado en análisis cuantitativo, investigación económica y procesamiento de datos.
+
+Mi trabajo combina herramientas de **economía, estadística y ciencias sociales** para analizar problemas vinculados al mercado laboral, políticas públicas, ingresos y desarrollo económico.
+
+[Ver análisis de coyuntura](coyuntura.qmd){.btn .btn-primary}
+[Conocer mi trabajo](about.qmd){.btn .btn-outline-primary}
+
+---
+
+## Líneas de trabajo
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .area-card}
+### 📈 Análisis de coyuntura
+
+Seguimiento y análisis de la economía argentina a partir de indicadores y fuentes oficiales.
+
+**Actividad · Empleo · Sector fiscal · Sector externo**
+
+[Ver análisis →](coyuntura.qmd){.project-link}
+:::
+
+::: {.g-col-12 .g-col-md-4 .area-card}
+### 📊 Economía aplicada
+
+Análisis de problemas económicos mediante datos, herramientas estadísticas y métodos cuantitativos.
+
+**Datos · Estadística · Economía · Políticas públicas**
+
+[Ver proyectos →](economia-aplicada.qmd){.project-link}
+:::
+
+::: {.g-col-12 .g-col-md-4 .area-card}
+### 🎓 Tesis de Maestría
+
+Investigación sobre trabajadores formales y beneficiarios de programas de transferencias de ingresos en Argentina.
+
+**EPH · Análisis discriminante · Probit · Mercado laboral**
+
+[Ver tesis →](tesis.qmd){.project-link}
+:::
+
+:::
+
+---
+
+## Herramientas y fuentes
+
+**R** · **Excel** · **Estadística** · **Econometría** · **Visualización de datos** · **EPH** · **INDEC** · **BCRA**
+
+Trabajo con microdatos, bases económicas y fuentes oficiales para transformar información en análisis e indicadores claros.
+
+---
+
+## Perfil
+
+Me interesa desarrollar proyectos vinculados al **análisis económico, investigación aplicada, mercado laboral, políticas públicas y análisis de datos**.
+
+[Sobre mí →](about.qmd){.project-link}

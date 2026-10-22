@@ -1,0 +1,25 @@
+
+---
+title: "Actividad económica argentina"
+date: 2026-10-07
+description: "Seguimiento de los principales indicadores de actividad económica."
+categories:
+  - Actividad económica
+toc: true
+---
+
+## Introducción
+
+En este análisis se examina la evolución reciente de la actividad económica argentina a partir de información oficial.
+
+## Datos y metodología
+
+Fuente: INDEC.
+
+## Resultados
+
+*Próximamente incorporaremos gráficos y análisis de los indicadores de actividad económica.*
+
+## Conclusiones
+
+*Sección en desarrollo.*
